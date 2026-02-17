@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+section {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+input {
+    width: 60px;
+    margin-left: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+ul li {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+ul li.comprado {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.barra-container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.barra-progresso {
+    height: 30px;
+    width: 0%;
+    background-color: #27ae60;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+}
